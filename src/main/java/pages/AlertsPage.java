@@ -36,4 +36,6 @@ public class AlertsPage {
     public String getResult(){
         return driver.findElement(results).getText();
     }
+    //selam
+    //emir branch ında değişiklik
 }
