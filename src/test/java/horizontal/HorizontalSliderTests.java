@@ -1,5 +1,5 @@
 package horizontal;
-import base.BaseTests;
+import AutomationExercise.base.BaseTests;
 import org.testng.annotations.Test;
 import pages.HorizontalSliderPage;
 
