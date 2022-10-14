@@ -49,9 +49,21 @@ public class HomePage {
         clickLink("WYSIWYG Editor");
         return new WysiwygEditorPage(driver);
     }
+    public LargeAndDeepDomPage clickLargeAndDeepDom(){
+        clickLink("Large & Deep DOM");
+        return new LargeAndDeepDomPage(driver);
+    }
+    public LargeAndDeepDomPage clickInfiniteScroll(){
+        clickLink("Infinite Scroll");
+        return new LargeAndDeepDomPage(driver);
+    }
     public DynamicLoadingPage clickDynamicLoading(){
         clickLink("Dynamic Loading");
         return new DynamicLoadingPage(driver);
+    }
+    public MultipleWindowsPage clickMultipleWindows(){
+        clickLink("Multiple Windows");
+        return new MultipleWindowsPage(driver);
     }
     private void clickLink(String linkText){
         driver.findElement(By.linkText(linkText)).click();

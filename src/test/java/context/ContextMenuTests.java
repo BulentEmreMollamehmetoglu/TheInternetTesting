@@ -1,6 +1,6 @@
 package context;
 
-import base.BaseTests;
+import AutomationExercise.base.BaseTests;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;

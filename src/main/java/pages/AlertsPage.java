@@ -38,7 +38,6 @@ public class AlertsPage {
     }
     //selam
     //emir branch ında değişiklik
-
     //bulent branch
     //adfladwad
 }

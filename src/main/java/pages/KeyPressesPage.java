@@ -16,6 +16,7 @@ public class KeyPressesPage {
     }
     public void enterPi(){
         enterText(Keys.chord(Keys.SHIFT,"6") + "=&");
+        // it helps you to press multiple keys simultaneously
     }
     public String getResult(){
         return driver.findElement(resultField).getText();
